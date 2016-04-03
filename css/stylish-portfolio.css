@@ -150,10 +150,10 @@ hr.small {
     width: 100%;
     height: 100%;
     background: url(../img/hknsite_background.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 /* About */
