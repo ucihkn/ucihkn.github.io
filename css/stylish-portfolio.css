@@ -10,13 +10,17 @@ body {
     font-family: "Helvetica Neue", "Source Sans Pro", Helvetica,Arial,sans-serif;
 }
 
+#left-col-head{
+    padding-left:5%;
+}
 
 #center-col-head{
-    padding-top:20%;
+    padding-top:5%;
 }
 
 #right-col-head{
-    padding-top:10%;
+    padding-top:15%;
+    padding-right:5%;
 }
 
 /*
