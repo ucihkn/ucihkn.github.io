@@ -228,7 +228,11 @@ hr.small {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-portfolio-react {
+    margin: 0 auto;
+}
+
+.img-portfolio-react:hover {
     opacity: 0.8;
 }
 
