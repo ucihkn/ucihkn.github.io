@@ -24,10 +24,15 @@ body {
     padding-right:5%;
 }
 
+#hkn-crest{
+    width:70%;
+    padding-top:15%;
+}
+
 /*display hkn bridge first on mobile*/
 @media (max-width:700px){
     #header-container{display:table; width:100%;}
-    #center-col-head{display:table-header-group;}
+    #center-col-head{display:table-header-group; padding:10px;}
     #right-col-head{display:table-footer-group;}
     #left-col-head{display:table-row-group;}
 }
@@ -37,6 +42,11 @@ body {
     .portfolio-item img{
         max-width:100px;
     }
+    #center-col-head h1{font-size:2.5em;}
+    #center-col-head h2{font-size:2.0em;}
+    #hkn-crest { padding-top:0%;}
+    #uci-logo-div {margin-bottom:0px;}
+
 }
 
 @media (max-width:900px){
