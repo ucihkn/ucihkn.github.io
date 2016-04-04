@@ -23,6 +23,31 @@ body {
     padding-right:5%;
 }
 
+/*display hkn bridge first on mobile*/
+@media (max-width:700px){
+    #header-container{display:table; width:100%;}
+    #center-col-head{display:table-header-group;}
+    #right-col-head{display:table-footer-group;}
+    #left-col-head{display:table-row-group;}
+}
+
+/*
+@media (max-width:400px){
+    .portfolio-item img{
+        max-width:100px;
+    }
+}
+*/
+@media (max-width:900px){
+    .portfolio-item img{
+        max-width:150px;
+    }
+}
+
+
+
+
+
 /*
 .crest-img-bkgd{
     background-image:url(http://hkn.ece.cmu.edu/images/HKNcrest.jpg);
