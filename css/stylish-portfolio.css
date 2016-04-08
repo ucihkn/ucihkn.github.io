@@ -81,6 +81,10 @@ h2 {
     #uci-logo-div {margin-bottom:0px;}
     #hkn-crest {padding-top: 10%;}
 
+    .bot-logos {
+        max-width:150px;
+    }
+
 }
 
 @media (max-width:900px){
@@ -348,6 +352,12 @@ footer {
     padding: 2% 0;
 }
 */
+
+@media(min-width: 750px){
+    .bot-logos{
+        width:40%;
+    }
+}
 
 #contactform {
     background-color: #16365D;
