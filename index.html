@@ -11,7 +11,7 @@
     <meta name="description" content="Website for Eta Kappa Nu Zeta Omega Chapter">
     <meta name="author" content="">
 
-    <title>Zeta Omega, Eta Kappa Nu</title>
+    <title>IEEE-Eta Kappa Nu, Zeta Omega</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -63,21 +63,21 @@
     </nav>
 
     <!-- Header -->
-    <header id="top" class="row">
+    <header id="top" class="row" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f7/UC_Irvine,_School_of_Engineering.JPG'); background-size: cover; box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.65);">
         <div id="header-container">
             <div class="text-vertical-center col-sm-3" id="left-col-head">
                 <div class="portfolio-item-2">
-                    <img class="img-portfolio" src="http://hkn.ece.cmu.edu/images/HKNcrest.jpg" id="hkn-crest">
+                    <img class="img-portfolio" src="img/HKNcrest.png" id="hkn-crest">
                 </div>
             </div>
             <!--<div id="hkn-uci-crest-container">-->
                 <div class="text-vertical-center col-sm-6" id="center-col-head">
-                    <h1 id="header-title">Eta Kappa Nu</h1>
+                    <h1 id="header-title">IEEE-Eta Kappa Nu</h1>
                     <h2> Zeta Omega </h2>
                     <div class="portfolio-item-2">
-                        <img class="img-portfolio" src="img/anteater_flatten.png" id="anteater-bridge">
+                        <img class="img-portfolio" src="img/anteater_flatten_outline_blk.png" id="anteater-bridge">
                     </div>
-                    <h2>University of California, Irvine</h2>
+                    <h2 style="padding-bottom: 2%;">University of California, Irvine</h2>
                     <!--<a href="#about" class="btn btn-primary btn-lg" style="background-color: #16365D">Find Out More</a>-->
                 </div>
                  <div class="text-vertical-center col-sm-3" id="right-col-head">
@@ -307,35 +307,44 @@
     <footer>
         <div id="contact" class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h1 class="text-center">Questions? Contact Us!</h1>
+                <div class="col-md-6 text-center">
                     <!--<h4><strong>Eta Kappa Nu</strong>
                     </h4>
                     <p>Zeta Omega Chapter<br>University of California, Irvine</p>-->
-                    <h2>Contact us!</h2>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-envelope-o fa-fw" style="font-size:4em"></i>  <h3><a href="mailto:name@example.com">irvine.hkn@gmail.com</a></h4>
-                        </li>
-                    </ul>
+                    
                     <form id="contactform" method="POST">
                         <div class="form-group">
-                            <input type="text" name="name" placeholder="Your name">
+                            <input type="text" class="form-control" name="name" placeholder="Your name">
                         </div>
                         <div class="form-group">
-                            <input type="email" name="_replyto" placeholder="Your email">
+                            <input type="email" class="form-control" name="_replyto" placeholder="Your email">
                         </div>
                             <input type="hidden" name="_subject" value="Website contact" />
                         <div class="form-group">    
-                            <textarea name="message" placeholder="Your message"></textarea>
+                            <textarea name="message" class="form-control" placeholder="Your note here"></textarea>
                          </div>   
                             <input type="text" name="_gotcha" style="display:none" />
                             <!--<input type="submit" value="Send">-->
                             <button type="submit" class="btn btn-default">Send</button>
-                        </div>
                     </form>
-<script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'irvine.hkn' + '@' + 'gmail' + '.' + 'com');
-</script>
+
+
+                    <script>
+                        var contactform =  document.getElementById('contactform');
+                        contactform.setAttribute('action', '//formspree.io/' + 'irvine.hkn' + '@' + 'gmail' + '.' + 'com');
+                    </script>
+                    
+                </div>
+                <div class="col-md-6 text-center">
+
+                    <ul class="list-unstyled">
+                        <li><h3 class="text-center"><i class="fa fa-envelope-o fa-fw" style="font-size:2em"></i><a href="mailto:name@example.com">irvine.hkn@gmail.com</a></h4>
+                        </li>
+                    </ul>
+                    
+                    
+                
                     <br>
                     <ul class="list-inline">
                         <li>
@@ -349,11 +358,21 @@
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>-->
                     </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; University of California, Irvine Eta Kappa Nu 2016</p>
+                   
+                    
                 </div>
+
             </div>
         </div>
+         <div class="portfolio-item tiny text-center col-sm-6">
+            <img class="img-portfolio img-responsive" src="img/hkn-sig2.png">
+        </div>
+        <div class="portfolio-item tiny text-center col-sm-6">
+            <img class="img-portfolio img-responsive" src="img/Ieee_blue_copy.jpg">
+        </div>
+                   
+        <hr class="small">
+        <p class="text-muted text-center">Copyright &copy; IEEE-Eta Kappa Nu, Zeta Omega. University of California, Irvine  2016</p>
     </footer>
 
     <!-- jQuery -->
