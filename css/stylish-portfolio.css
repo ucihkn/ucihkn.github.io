@@ -11,6 +11,10 @@ body {
     font-family: "Helvetica Neue", "Source Sans Pro", Helvetica,Arial,sans-serif;
 }
 
+h2 {
+    margin-top: 0px;
+}
+
 #top {
      background-size: cover; 
      background-repeat:no-repeat;
