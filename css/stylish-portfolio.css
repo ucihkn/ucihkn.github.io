@@ -21,12 +21,14 @@ body {
 }
 #header-container{color:white;}
 
+#header-title{padding-top:2%;}
+
 #left-col-head{
     padding-left:5%;
 }
 
 #center-col-head{
-    padding-top:5%;
+    padding-top:0%;
 }
 
 #right-col-head{
@@ -337,9 +339,11 @@ hr.small {
     max-width:20%;
 }
 
+/*
 footer {
     padding: 2% 0;
 }
+*/
 
 #contactform {
     background-color: #16365D;
