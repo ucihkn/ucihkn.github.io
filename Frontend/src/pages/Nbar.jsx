@@ -1,6 +1,6 @@
 import styles from './nbar.module.scss';
 import { Link, Outlet } from 'react-router-dom';
-import logo from '../assets/ucilogo.webp';
+import logo from '../assets/HKNcrest.png';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import Footer from './Footer.jsx';
 import { useState } from 'react';
@@ -31,7 +31,7 @@ function Nbar() {
                         <span className="mx-1" />
                         <Link to="/officers" className="nav-link my-auto d-inline-block">Officers</Link>
                         <span className="mx-1" />
-                        <Link to="/contact-us" className="nav-link d-inline-block"><Button variant="outline-warning">Contact Us</Button></Link>
+                        <Link to="/contact-us" className="nav-link d-inline-block"><Button variant="outline-dark">Contact Us</Button></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
