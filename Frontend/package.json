@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ucihkn.github.io/ucihkn.github.io/",
+  "homepage": "https://ucihkn.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",

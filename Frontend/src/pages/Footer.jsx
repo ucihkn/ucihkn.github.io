@@ -26,11 +26,11 @@ function Footer() {
                             <h4 className="text-dark mb-3">About</h4>
                             <Link to="/contact-us" className="text-decoration-none text-dark"><p>Contact Us</p></Link>
                             <Link to="/about" className="text-decoration-none text-dark"><p>About Us</p></Link>
-                            <Link to="/schedule" className="text-decoration-none text-dark"><p>Schedule</p></Link>
+                            <Link to="/schedule" className="text-decoration-none text-dark"><p>Officers</p></Link>
                         </Col>
                     </Row>
                 </Card.Header>
-                <ListGroup.Item className="text-center text-dark" variant="dark">© 2024, Ready Tutor | readytutor.org</ListGroup.Item>
+                <ListGroup.Item className="text-center text-dark" variant="dark">© 2019 IEEE-Eta Kappa Nu, Zeta Omega at University of California, Irvine</ListGroup.Item>
             </ListGroup>
         </Card>
     </>);

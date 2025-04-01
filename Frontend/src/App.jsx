@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { Nbar as Navbar } from './pages/Nbar.jsx';
 import Home from './pages/Home.jsx';
 import ContactUs from './pages/ContactUs.jsx';
-import Schedule from './pages/Schedule.jsx';
+import Officers from './pages/Officers.jsx';
 import About from './pages/About.jsx';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="contact-us" element={<ContactUs />} />
             <Route path="about" element={<About />} />
-            <Route path="schedule" element={<Schedule />} />
+            <Route path="officers" element={<Officers />} />
           </Route>
         </Routes>
       </BrowserRouter>
