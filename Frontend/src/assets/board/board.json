@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Gavin Nguyen",
+    "role": "President",
+    "image": "Gavin_Nguyen.png",
+    "bio": "Gavin is the current president of UCI HKN."
+  },
+  {
+    "name": "Eric Cheng",
+    "role": "Vice President",
+    "image": "Eric_Cheng.jpg",
+    "bio": "Eric is the vice president and leads outreach."
+  },
+  {
+    "name": "Neet Patel",
+    "role": "Treasurer",
+    "image": "Neet_Patel.jpg",
+    "bio": "Neet manages the chapter's finances."
+  },
+  {
+    "name": "Tara Minaie",
+    "role": "Secretary",
+    "image": "Tara_Minaie.webp",
+    "bio": "Tara keeps our records and minutes."
+  }
+] 

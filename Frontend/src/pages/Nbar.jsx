@@ -22,7 +22,10 @@ function Nbar() {
         <Navbar id="mainNavBar" onToggle={toggled} expanded={toggle} variant="light" fixed="top" className="px-4 mb-5 navbar-light bg-light border-primary" expand="lg">
             <Container fluid>
                 <Navbar.Brand>
-                    <Link to="/" className="nav-link"><img src={logo} height="50vh" className="d-inline-block align-self-center" /></Link>
+                    <Link to="/" className="nav-link d-flex align-items-center">
+                        <img src={logo} height="50" className="d-inline-block me-2" alt="UCI HKN Logo" />
+                        UCI HKN
+                    </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle id="navBarIdTogglePiece" aria-controls="mainNavPanel" />
                 <Navbar.Collapse className="text-end" id="mainNavPanel">
@@ -31,7 +34,7 @@ function Nbar() {
                         <span className="mx-1" />
                         <Link to="/officers" className="nav-link my-auto d-inline-block">Officers</Link>
                         <span className="mx-1" />
-                        <Link to="/contact-us" className="nav-link d-inline-block"><Button variant="outline-dark">Contact Us</Button></Link>
+                        <Link to="/contact-us" className="nav-link d-inline-block"><Button variant="dark">Contact Us</Button></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
