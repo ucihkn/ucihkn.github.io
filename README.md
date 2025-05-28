@@ -6,7 +6,7 @@
 
 If you are just updating the board members, find the file called `board.json`. This is the file you want to edit. (Location: `Frontend/src/assets/board/board.json`)
 
-This file contains [https://www.w3schools.com/whatis/whatis_json.asp](JSON objects), and the most important and difficult part about this is making sure the images are correct.
+This file contains [JSON objects](https://www.w3schools.com/whatis/whatis_json.asp), and the most important and difficult part about this is making sure the images are correct.
 
 First of all, go upload pictures of the new board into `Frontend/src/assets/board` (**CRUCIAL**: if you do not do this exact location, __it will break the site__)
 
@@ -23,9 +23,9 @@ Important thing to do:
 
 NOW you should be done!
 
-The changes to the site will be visible to you at [https://ucihkn.github.io](ucihkn.github.io)
+The changes to the site will be visible to you at [ucihkn.github.io](https://ucihkn.github.io)
 
-If you have any troubles please refer to (https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3)[this page]
+If you have any troubles please refer to (this page)[https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3]
 
 ### Making Changes to Site
 
