@@ -16,6 +16,8 @@ Finally, edit the corresponding information in the `board.json` file that is lef
 
 The changes to the site will be visible to you at [https://ucihkn.github.io](ucihkn.github.io)
 
+If you have any troubles please refer to (https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3)[this page]
+
 ### Making Changes to Site
 
 The site was made using help from Cursor.com, so it may be advisable to utilize any sort of resources that may help you to develop the site further or make any changes as necessary.
