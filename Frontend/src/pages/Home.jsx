@@ -19,22 +19,10 @@ function Home() {
             <Card.ImgOverlay style={{ backgroundColor: "rgba(0,0,0,0.25)"}} className={`${styles['home-overlay']} text-center`}>
                 <div>
                     <Card.Title className="display-1 mt-3"><b>IEEE-Eta Kappa Nu</b></Card.Title>
-                    <Card.Text className="display-6 mb-3"><b>Zeta Omega</b></Card.Text>
+                    <Card.Text className="display-6"><b>Zeta Omega Chapter</b></Card.Text>
                 </div>
-                <div className={styles['bottom-content']}>
-                    <Card.Text className="display-6"><b>University of California, Irvine</b></Card.Text>
-                    <Row className="mb-5 justify-content-center">
-                        <Col xs="auto">
-                            <Link to="/about">
-                                <Button className="mt-1 mx-3" size="lg" variant="light">Learn More</Button>
-                            </Link>
-                            <Link to="/contact-us">
-                                <Button className="mt-1 mx-3 d-inline-flex align-items-center" size="lg" variant="light">
-                                    Contact Us <span style={{fontSize: '1.1em', marginLeft: '0.4em', lineHeight: 1, display: 'inline-block'}}>&#8594;</span>
-                                </Button>
-                            </Link>
-                        </Col>
-                    </Row>
+                <div className={"mb-5 " + styles['bottom-content']}>
+                    <Card.Text className="display-6 mb-5"><b>University of California, Irvine</b></Card.Text>
                 </div>
             </Card.ImgOverlay>
         </Card>
@@ -51,6 +39,11 @@ function Home() {
                   <b>character</b>
                   {` as students in electrical or computer engineering, or by their attainments in the field of electrical or computer engineering."`}
                 </FadeInLeftToRight>
+                <div className="text-center mt-4">
+                    <Link to="/about">
+                        <Button className="mt-1 mx-3" size="lg" variant="dark">Learn More</Button>
+                    </Link>
+                </div>
             </>
         } />
 
@@ -77,10 +70,16 @@ function Home() {
                     Additional requirements are needed for induction.
                 </span>
                 <Link to="/contact-us">
-                    <Button className="mt-1 mx-3" size="lg" variant="dark">Contact Us</Button>
+                    <Button className="mt-1 mx-3 d-inline-flex align-items-center" size="lg" variant="dark">
+                        Contact Us <span style={{fontSize: '1.1em', marginLeft: '0.4em', lineHeight: 1, display: 'inline-block'}}>&#8594;</span>
+                    </Button>
                 </Link>
             </>
         } />
+        <div className="my-5 text-center">
+            <h2 className="display-3 mb-4">Check out our Events!</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?src=769cb9a2dfee86c00c27ca226476858675b2fce4ee59ee90af79dbabf78f6b8c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style={{border: 0}} width="800" height="600" frameBorder="0" scrolling="no" title="UCI HKN Events Calendar"></iframe>
+        </div>
     </>;
 }
 

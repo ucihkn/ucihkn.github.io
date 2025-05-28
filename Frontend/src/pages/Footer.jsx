@@ -51,6 +51,7 @@ function Footer() {
                                     }
                                 >
                                     <span
+                                        className={styles.footerSocialIcon}
                                         style={{ cursor: 'pointer', display: 'inline-block' }}
                                         onClick={handleCopy}
                                         tabIndex={0}
@@ -74,6 +75,10 @@ function Footer() {
                             <Link to="/contact-us" className="text-decoration-none text-dark"><p>Contact Us</p></Link>
                             <Link to="/about" className="text-decoration-none text-dark"><p>About Us</p></Link>
                             <Link to="/officers" className="text-decoration-none text-dark"><p>Officers</p></Link>
+                        </Col>
+                        <Col>
+                            <h4 className="text-dark mb-3">Events</h4>
+                            <Link to="/events" className="text-decoration-none text-dark"><p>Our Events</p></Link>
                         </Col>
                     </Row>
                 </Card.Header>

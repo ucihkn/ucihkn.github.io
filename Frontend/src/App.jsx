@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import Officers from './pages/Officers.jsx';
 import About from './pages/About.jsx';
+import Events from './pages/Events.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="contact-us" element={<ContactUs />} />
             <Route path="about" element={<About />} />
             <Route path="officers" element={<Officers />} />
+            <Route path="events" element={<Events />} />
           </Route>
         </Routes>
       </BrowserRouter>

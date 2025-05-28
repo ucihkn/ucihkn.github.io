@@ -1,0 +1,41 @@
+.memberCard {
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  border-radius: 1.5rem;
+}
+
+.memberImageFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto 1rem auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #e0e0e0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  background: #fff;
+}
+
+.memberImage {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: none;
+  display: block;
+}
+
+.memberLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+}
+.memberLinks a svg, .memberLinks span svg {
+  transition: transform 0.15s;
+}
+.memberLinks a:hover svg, .memberLinks span:hover svg {
+  transform: scale(1.15);
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.10));
+}
