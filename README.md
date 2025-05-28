@@ -25,7 +25,7 @@ NOW you should be done!
 
 The changes to the site will be visible to you at [ucihkn.github.io](https://ucihkn.github.io)
 
-If you have any troubles please refer to (this page)[https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3]
+If you have any troubles please refer to [this page](https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3)
 
 ### Making Changes to Site
 
