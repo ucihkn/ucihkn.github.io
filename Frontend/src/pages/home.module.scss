@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  width: 100%;
   padding-bottom: 3rem; // adjust as needed
 }
 
@@ -16,10 +16,16 @@
 
 .parallax-card {
   min-height: 100vh;
+  width: 100%;
   background-image: url('../assets/student_center.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
+  overflow-x: hidden;
+
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
 }

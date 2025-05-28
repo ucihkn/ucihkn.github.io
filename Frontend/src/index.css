@@ -11,4 +11,19 @@
 
 .centered-tooltip .tooltip-inner {
   text-align: center;
-} 
+}
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Debug: outline all elements to spot overflow */
+/* * {
+  outline: 1px solid rgba(255,0,0,0.2);
+} */ 
