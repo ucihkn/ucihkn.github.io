@@ -39,7 +39,7 @@ function Home() {
             </Card.ImgOverlay>
         </Card>
 
-        <ContentBlock mt="20" mb="0" content={
+        <ContentBlock mt="20" mb="10" content={
             <>
                 <h1 className="display-3">Our Purpose</h1>
                 <FadeInLeftToRight className="lead" duration={3}>
@@ -55,7 +55,7 @@ function Home() {
         } />
 
         {/* Alumni Companies Section */}
-        <div style={{ marginTop: "20vh", marginBottom: "25vh" }} className="text-center">
+        <div style={{ marginTop: "10vh", marginBottom: "25vh" }} className="text-center">
             <h2 className="display-3 mb-5">Our alumni work for...</h2>
             <CompanyLogoCarousel />
         </div>
@@ -75,7 +75,7 @@ function Home() {
                     Additional requirements are needed for induction.
                 </span>
                 <Link to="/contact-us">
-                    <Button className="mt-1 mx-3" variant="dark">Contact Us</Button>
+                    <Button className="mt-1 mx-3" size="lg" variant="dark">Contact Us</Button>
                 </Link>
             </>
         } />

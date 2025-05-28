@@ -1,26 +1,35 @@
 [
-  {
-    "name": "Gavin Nguyen",
-    "role": "President",
-    "image": "Gavin_Nguyen.png",
-    "bio": "Gavin is the current president of UCI HKN."
-  },
-  {
-    "name": "Eric Cheng",
-    "role": "Vice President",
-    "image": "Eric_Cheng.jpg",
-    "bio": "Eric is the vice president and leads outreach."
-  },
-  {
-    "name": "Neet Patel",
-    "role": "Treasurer",
-    "image": "Neet_Patel.jpg",
-    "bio": "Neet manages the chapter's finances."
-  },
-  {
-    "name": "Tara Minaie",
-    "role": "Secretary",
-    "image": "Tara_Minaie.webp",
-    "bio": "Tara keeps our records and minutes."
-  }
-] 
+    {
+        "name": "Gavin Nguyen",
+        "role": "President",
+        "image": "Gavin_Nguyen.png",
+        "bio": "3rd Year\nElectrical Engineering",
+        "email": "mailto:gavinn2@uci.edu",
+        "linkedin": "https://www.linkedin.com/in/gavin-nguyen8/"
+    },
+    {
+        "name": "Tara Minaie",
+        "role": "Vice President + Treasurer",
+        "image": "Tara_Minaie.webp",
+        "bio": "2nd Year\nElectrical Engineering",
+        "email": "mailto:tminaie@uci.edu",
+        "linkedin": "https://www.linkedin.com/in/tara-minaie-3abb1729b/"
+    },
+    {
+      "name": "Eric Cheng",
+      "role": "Secretary",
+      "image": "Eric_Cheng.jpg",
+      "bio": "3rd Year\nElectrical Engineering",
+      "email": "mailto:chenge17@uci.edu",
+      "linkedin": "https://www.linkedin.com/in/ericccheng/"
+    },
+    {
+        "name": "Neet Patel",
+        "role": "Webmaster + External",
+        "image": "Neet_Patel.jpg",
+        "bio": "2nd Year\nCS + Electrical Engineering",
+        "email": "mailto:neetp1@uci.edu",
+        "linkedin": "https://www.linkedin.com/in/neet-patel-98618b272/"
+    }
+]
+  

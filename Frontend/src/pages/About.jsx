@@ -12,7 +12,7 @@ function About() {
             <p className="lead">IEEE-Eta Kappa Nu (IEEE-HKN), the national honor society of IEEE, is dedicated to encouraging and recognizing individual excellence in education and meritorious work, in professional practice, and in any of the areas within the IEEE-designated fields of interest.</p>
         </>} />
 
-        <Image src={ENG_HALL_img} style={{ width: "100%" }} />
+        <Image src={ENG_HALL_img} style={{ marginBottom: "-10vh", width: "100%" }} />
     </>;
 }
 

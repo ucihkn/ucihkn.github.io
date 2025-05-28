@@ -7,4 +7,8 @@
 .fly-in-on-scroll.fly-in-on-scroll-animate {
   opacity: 1;
   transform: translateX(0);
+}
+
+.centered-tooltip .tooltip-inner {
+  text-align: center;
 } 
