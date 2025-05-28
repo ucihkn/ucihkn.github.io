@@ -1,0 +1,25 @@
+.home-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 3rem; // adjust as needed
+}
+
+.bottom-content {
+  margin-top: auto; // pushes this section to the bottom
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem; // space between text and buttons
+}
+
+.parallax-card {
+  min-height: 100vh;
+  background-image: url('../assets/student_center.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}

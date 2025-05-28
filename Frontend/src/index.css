@@ -1,0 +1,14 @@
+.fly-in-on-scroll {
+  opacity: 0;
+  transform: translateX(var(--fly-distance, 80px));
+  transition: opacity var(--fly-duration, 0.5s) cubic-bezier(0.4,0,0.2,1), transform var(--fly-duration, 0.5s) cubic-bezier(0.4,0,0.2,1);
+}
+
+.fly-in-on-scroll.fly-in-on-scroll-animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.centered-tooltip .tooltip-inner {
+  text-align: center;
+} 
