@@ -4,7 +4,7 @@
 
 ### Updating Board Members for New Year
 
-If you are just updating the board members, find the file called `board.json`. This is the file you want to edit. (Location: `Frontend/src/assets/board/board.json`)
+If you are just updating the board members, find the file called `board.json`. This is the file you want to edit. (Location: `Frontend/public/board.json`)
 
 This file contains [JSON objects](https://www.w3schools.com/whatis/whatis_json.asp), and the most important and difficult part about this is making sure the images are correct.
 

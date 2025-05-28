@@ -10,7 +10,7 @@ const BoardCarousel = () => {
   const [copiedIdx, setCopiedIdx] = useState(null);
 
   useEffect(() => {
-    fetch('/src/assets/board/board.json')
+    fetch('/board.json')
       .then((res) => res.json())
       .then(setBoard);
   }, []);
