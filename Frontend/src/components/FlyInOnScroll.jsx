@@ -5,6 +5,11 @@ const FlyInOnScroll = ({ children, className = '', duration = 0.5, distance = '4
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    // Fallback: If on mobile, trigger immediately
+    if (window.innerWidth <= 768) {
+      setVisible(true);
+      return;
+    }
     const observer = new window.IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -12,7 +17,7 @@ const FlyInOnScroll = ({ children, className = '', duration = 0.5, distance = '4
           observer.disconnect();
         }
       },
-      { threshold: 0.6 }
+      { threshold: 0.4 } // Lower threshold for mobile
     );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
