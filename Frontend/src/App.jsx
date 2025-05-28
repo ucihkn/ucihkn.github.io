@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import { Nbar as Navbar } from './pages/Nbar.jsx';
 import Home from './pages/Home.jsx';
@@ -9,7 +9,7 @@ import About from './pages/About.jsx';
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navbar />}>
             <Route index element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
             <Route path="officers" element={<Officers />} />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }
