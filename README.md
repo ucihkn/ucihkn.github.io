@@ -14,6 +14,15 @@ After uploading the images, make sure that when invoking the files in `board.jso
 
 Finally, edit the corresponding information in the `board.json` file that is left, you do not need to be technical to understand what to change (all the items are labeled).
 
+**WAIT**. We are not done yet.
+
+Important thing to do:
+- Go into your terminal
+- make sure your directory IN THE TERMINAL is: `~whatever-over-here/ucihkn.github.io/Frontend`
+- run this command: `npm run deploy`
+
+NOW you should be done!
+
 The changes to the site will be visible to you at [https://ucihkn.github.io](ucihkn.github.io)
 
 If you have any troubles please refer to (https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3)[this page]
