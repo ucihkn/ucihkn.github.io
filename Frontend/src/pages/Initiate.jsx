@@ -1,7 +1,7 @@
 import ContentBlock from '../components/ContentBlock.jsx';
 import { Card } from 'react-bootstrap';
 import './initiate-custom-checkbox.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const requirementsLeft = [
   {
@@ -73,6 +73,24 @@ function CustomCheckbox({ id, checked, onChange, children }) {
 
 function Initiate() {
   const [checked, setChecked] = useState({});
+
+  // Load checkbox settings from localStorage on component mount
+  useEffect(() => {
+    const savedSettings = localStorage.getItem('hkn-initiation-requirements');
+    if (savedSettings) {
+      try {
+        const parsedSettings = JSON.parse(savedSettings);
+        setChecked(parsedSettings);
+      } catch (error) {
+        console.error('Error parsing saved checkbox settings:', error);
+      }
+    }
+  }, []);
+
+  // Save checkbox settings to localStorage whenever checked state changes
+  useEffect(() => {
+    localStorage.setItem('hkn-initiation-requirements', JSON.stringify(checked));
+  }, [checked]);
 
   const handleCheck = (id) => {
     setChecked((prev) => ({ ...prev, [id]: !prev[id] }));
