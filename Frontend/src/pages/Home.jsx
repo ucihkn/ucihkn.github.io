@@ -82,7 +82,7 @@ function Home() {
 
         <div style={{ marginTop: "30vh", marginBottom: "5vh" }} className="text-center">
             <h2 className="display-3 mb-4">Check out our Events!</h2>
-            <iframe src="https://calendar.google.com/calendar/embed?src=769cb9a2dfee86c00c27ca226476858675b2fce4ee59ee90af79dbabf78f6b8c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style={{border: 0}} width="800" height="600" frameBorder="0" scrolling="no" className="mb-5" title="UCI HKN Events Calendar"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=769cb9a2dfee86c00c27ca226476858675b2fce4ee59ee90af79dbabf78f6b8c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style={{border: 0, height: "100vh"}} width="85%" frameBorder="0" scrolling="no" className="mb-5" title="UCI HKN Events Calendar"></iframe>
         </div>
     </>;
 }
