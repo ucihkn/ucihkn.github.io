@@ -79,6 +79,8 @@ function Footer() {
                         <Col>
                             <h4 className="text-dark mb-3">Events</h4>
                             <Link to="/events" className="text-decoration-none text-dark"><p>Our Events</p></Link>
+                            <Link to="/initiate" className="text-decoration-none text-dark"><p>Requirements</p></Link>
+                            <Link to="/faq" className="text-decoration-none text-dark"><p>FAQ</p></Link>
                         </Col>
                     </Row>
                 </Card.Header>

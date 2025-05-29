@@ -32,9 +32,11 @@ function Nbar() {
                     <Nav className="ms-auto d-inline" navbarScroll>
                         <Link to="/about" className="nav-link my-auto d-inline-block">About</Link>
                         <span className="mx-1" />
-                        <Link to="/officers" className="nav-link my-auto d-inline-block">Officers</Link>
+                        <Link to="/initiate" className="nav-link my-auto d-inline-block">Requirements</Link>
                         <span className="mx-1" />
                         <Link to="/events" className="nav-link my-auto d-inline-block">Events</Link>
+                        <span className="mx-1" />
+                        <Link to="/faq" className="nav-link my-auto d-inline-block">FAQ</Link>
                         <span className="mx-1" />
                         <Link to="/contact-us" className="nav-link d-inline-block"><Button variant="dark">Contact Us</Button></Link>
                     </Nav>

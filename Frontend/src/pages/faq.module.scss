@@ -1,0 +1,34 @@
+/* Remove scale effect specifically for accordion components */
+.accordion :global(.accordion-button):hover,
+.accordion :global(.accordion-button):focus,
+.accordion :global(.accordion-button):active,
+.accordion :global(.accordion-item):hover,
+.accordion :global(.accordion-header):hover,
+.accordion :global(.accordion-header) :global(.accordion-button):hover {
+  transform: none !important;
+  transform-origin: initial !important;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out !important;
+  scale: 1 !important;
+}
+
+/* Ensure accordion maintains normal styling without scale transforms */
+.accordion :global(.accordion-button),
+.accordion :global(.accordion-item),
+.accordion :global(.accordion-header) {
+  transform: none !important;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out !important;
+  scale: 1 !important;
+}
+
+/* Override any global scale effects on accordion elements */
+.accordion * {
+  transform: none !important;
+  scale: 1 !important;
+}
+
+.accordion *:hover,
+.accordion *:focus,
+.accordion *:active {
+  transform: none !important;
+  scale: 1 !important;
+} 

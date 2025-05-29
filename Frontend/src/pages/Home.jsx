@@ -58,7 +58,7 @@ function Home() {
         <hr />
 
         {/* Invitation Block */}
-        <ContentBlock mt="20" mb="20" content={
+        <ContentBlock mt="20" mb="30" content={
             <>
                 <FlyInOnScroll>
                     <h2 className="display-3 mb-3">Interested?</h2>
@@ -69,16 +69,20 @@ function Home() {
                     We send them at the beginning of every Fall, Winter and Spring Quarter.<br />
                     Additional requirements are needed for induction.
                 </span>
-                <Link to="/contact-us">
+                <Link to="/initiate">
                     <Button className="mt-1 mx-3 d-inline-flex align-items-center" size="lg" variant="dark">
-                        Contact Us <span style={{fontSize: '1.1em', marginLeft: '0.4em', lineHeight: 1, display: 'inline-block'}}>&#8594;</span>
+                        See Requirements <span style={{fontSize: '1.1em', marginLeft: '0.4em', lineHeight: 1, display: 'inline-block'}}>&#8594;</span>
                     </Button>
                 </Link>
             </>
         } />
-        <div className="my-5 text-center">
+
+        <hr />
+
+
+        <div style={{ marginTop: "30vh", marginBottom: "5vh" }} className="text-center">
             <h2 className="display-3 mb-4">Check out our Events!</h2>
-            <iframe src="https://calendar.google.com/calendar/embed?src=769cb9a2dfee86c00c27ca226476858675b2fce4ee59ee90af79dbabf78f6b8c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style={{border: 0}} width="800" height="600" frameBorder="0" scrolling="no" title="UCI HKN Events Calendar"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=769cb9a2dfee86c00c27ca226476858675b2fce4ee59ee90af79dbabf78f6b8c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style={{border: 0}} width="800" height="600" frameBorder="0" scrolling="no" className="mb-5" title="UCI HKN Events Calendar"></iframe>
         </div>
     </>;
 }
