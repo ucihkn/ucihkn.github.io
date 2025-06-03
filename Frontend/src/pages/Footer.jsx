@@ -72,7 +72,7 @@ function Footer() {
                         </Col>
                         <Col>
                             <h4 className="text-dark mb-3">About</h4>
-                            <Link to="/contact-us" className="text-decoration-none text-dark"><p>Contact Us</p></Link>
+                            <Link to="/faq" className="text-decoration-none text-dark"><p>FAQ</p></Link>
                             <Link to="/about" className="text-decoration-none text-dark"><p>About Us</p></Link>
                             <Link to="/officers" className="text-decoration-none text-dark"><p>Officers</p></Link>
                         </Col>
@@ -80,7 +80,7 @@ function Footer() {
                             <h4 className="text-dark mb-3">Events</h4>
                             <Link to="/events" className="text-decoration-none text-dark"><p>Our Events</p></Link>
                             <Link to="/initiate" className="text-decoration-none text-dark"><p>Requirements</p></Link>
-                            <Link to="/faq" className="text-decoration-none text-dark"><p>FAQ</p></Link>
+                            <Link to="/contact-us" className="text-decoration-none text-dark"><p>Contact Us</p></Link>
                         </Col>
                     </Row>
                 </Card.Header>
