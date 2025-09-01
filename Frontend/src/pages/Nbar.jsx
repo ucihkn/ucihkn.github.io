@@ -1,7 +1,7 @@
 import styles from './nbar.module.scss';
 import { Link, Outlet } from 'react-router-dom';
 import logo from '../assets/HKNcrest.png';
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button, NavDropdown } from 'react-bootstrap';
 import Footer from './Footer.jsx';
 import { useState } from 'react';
 
@@ -13,7 +13,7 @@ function Nbar() {
     };
 
     window.addEventListener("click", (e) => {
-        if(e.target.tagName != "SPAN" && e.target.id != "navBarIdTogglePiece") {
+        if(e.target.tagName != "SPAN" && e.target.id != "navBarIdTogglePiece" && e.target.id != "navBarIdDropdownButton") {
             setToggle(false);
         }
     });
@@ -30,7 +30,11 @@ function Nbar() {
                 <Navbar.Toggle id="navBarIdTogglePiece" aria-controls="mainNavPanel" />
                 <Navbar.Collapse className="text-end" id="mainNavPanel">
                     <Nav className="ms-auto d-inline" navbarScroll>
-                        <Link to="/about" className="nav-link my-auto d-inline-block">About</Link>
+                        <NavDropdown className="nav-link my-auto d-inline-block" title="About" id="navBarIdDropdownButton">
+                            <NavDropdown.Item href="/faq">FAQ</NavDropdown.Item>
+                            <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
+                            <NavDropdown.Item href="/officers">Officers</NavDropdown.Item>
+                        </NavDropdown>
                         <span className="mx-1" />
                         <Link to="/initiate" className="nav-link my-auto d-inline-block">Requirements</Link>
                         <span className="mx-1" />
