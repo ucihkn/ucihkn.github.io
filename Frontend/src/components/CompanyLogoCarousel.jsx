@@ -4,7 +4,8 @@ import styles from './CompanyLogoCarousel.module.scss';
 // Import all company logos using Vite's glob import
 const companyLogoModules = import.meta.glob('../assets/companies/*.{png,jpg,jpeg,svg}', { 
   eager: true,
-  as: 'url'
+  query: '?url',
+  import: 'default'
 });
 
 // Convert to array and filter out system files
