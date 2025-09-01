@@ -3,23 +3,23 @@
         "name": "Gavin Nguyen",
         "role": "President",
         "image": "Gavin_Nguyen.webp",
-        "bio": "3rd Year\nElectrical Engineering",
+        "bio": "4th Year\nElectrical Engineering",
         "email": "mailto:gavinn2@uci.edu",
         "linkedin": "https://www.linkedin.com/in/gavin-nguyen8/"
     },
     {
-        "name": "Tara Minaie",
+        "name": "Johnathan Lin",
         "role": "Vice President + Treasurer",
-        "image": "Tara_Minaie.webp",
-        "bio": "2nd Year\nElectrical Engineering",
-        "email": "mailto:tminaie@uci.edu",
-        "linkedin": "https://www.linkedin.com/in/tara-minaie-3abb1729b/"
+        "image": "johnathanLin.jpg",
+        "bio": "3rd Year\nComputer Engineering",
+        "email": "mailto:linjonathan22@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/linjonathan001/"
     },
     {
       "name": "Eric Cheng",
       "role": "Secretary",
       "image": "Eric_Cheng.jpg",
-      "bio": "3rd Year\nElectrical Engineering",
+      "bio": "4th Year\nElectrical Engineering",
       "email": "mailto:chenge17@uci.edu",
       "linkedin": "https://www.linkedin.com/in/ericccheng/"
     },
@@ -27,7 +27,7 @@
         "name": "Neet Patel",
         "role": "Webmaster + External",
         "image": "Neet_Patel.jpg",
-        "bio": "2nd Year\nCS + Electrical Engineering",
+        "bio": "3rd Year\nCSE + Electrical Engineering",
         "email": "mailto:neetp1@uci.edu",
         "linkedin": "https://www.linkedin.com/in/neet-patel-98618b272/"
     }
