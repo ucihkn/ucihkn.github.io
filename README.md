@@ -12,9 +12,11 @@ First of all, go upload pictures of the new board into `Frontend/src/assets/boar
 
 After uploading the images, make sure that when invoking the files in `board.json`, you are putting the **EXACT** image name (if your file is called `John_Smith.png`, make sure you put **EXACTLY** `John_Smith.png` into the *image* field)
 
-Finally, edit the corresponding information in the `board.json` file that is left, you do not need to be technical to understand what to change (all the items are labeled).
+Then, edit the corresponding information in the `board.json` file that is left, you do not need to be technical to understand what to change (all the items are labeled).
 
-**WAIT**. We are not done yet.
+## HEY
+
+**BUT WAIT**. We are not done yet.
 
 Important thing to do:
 - Go into your terminal
