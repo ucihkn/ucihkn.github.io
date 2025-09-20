@@ -13,26 +13,16 @@ const requirementsLeft = [
     text: <span>Connect/Follow our <a href="https://www.linkedin.com/in/ucihkn/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and <a href="https://www.instagram.com/hknuci/" target="_blank" rel="noopener noreferrer">Instagram</a>!</span>,
   },
   {
-    id: 'coffee',
-    text: <>
-      Coffee Chat with a Professional
-      <ul className="ms-4 mt-2 mb-0" style={{listStyle: 'disc'}}>
-        <li>Q&amp;A; what you learned</li>
-        <li>Your prospective career outlook<br />(5 years from now)</li>
-      </ul>
-    </>,
-  },
-  {
     id: 'events',
     text: 'Any 4 HKN hosted Events',
   },
-];
-
-const requirementsRight = [
   {
     id: 'luncheon',
     text: 'Luncheon with a current Officer',
-  },
+  }
+];
+
+const requirementsRight = [
   {
     id: 'capstone',
     text: <>
