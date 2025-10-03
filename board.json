@@ -25,11 +25,19 @@
     },
     {
         "name": "Neet Patel",
-        "role": "Webmaster + External",
+        "role": "Webmaster",
         "image": "Neet_Patel.jpg",
         "bio": "3rd Year\nCSE + Electrical Engineering",
         "email": "mailto:neetp1@uci.edu",
         "linkedin": "https://www.linkedin.com/in/neat-patel"
+    },
+    {
+        "name": "Rohit De",
+        "role": "External Relations",
+        "image": "Rohit_De.webp",
+        "bio": "3rd Year\nComputer Science & Engineering",
+        "email": "mailto:rde1@uci.edu",
+        "linkedin": "https://www.linkedin.com/in/rohitde/"
     }
 ]
   
