@@ -1,7 +1,7 @@
 import styles from './about.module.scss';
 import { Image } from 'react-bootstrap';
 
-import ENG_HALL_img from '../assets/engineering-hall.jpg';
+import ENG_HALL_img from '../assets/events/AboutPageGroupPhoto.webp';
 
 import ContentBlock from '../components/ContentBlock.jsx';
 

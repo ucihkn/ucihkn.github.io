@@ -6,6 +6,7 @@ import UCI_BG_img from '../assets/uci-hssoe.jpg';
 import HKN_LOGO_img from '../assets/HKNcrest.png';
 import UCI_ANTEATER_img from '../assets/anteater_flatten_outline_blk.png';
 import UCI_LOGO_img from '../assets/uci-logo.png';
+import ENG_HALL_img from '../assets/engineering-hall.jpg';
 
 import ContentBlock from '../components/ContentBlock.jsx';
 import TypingFadeIn from '../components/TypingFadeIn.jsx';
@@ -30,6 +31,7 @@ function Home() {
         <ContentBlock mt="20" mb="25" content={
             <>
                 <h1 className="display-3">Our Purpose</h1>
+                <Image src={ENG_HALL_img} style={{ marginBottom: "5vh", width: "100%" }} />
                 <FadeInLeftToRight className="lead" duration={3}>
                   {`"To encourage excellence in education for the benefit of the public by: marking in a fitting manner those who have conferred honor upon engineering education by distinguished `}
                   <b>scholarship</b>
@@ -82,7 +84,7 @@ function Home() {
 
         <div style={{ marginTop: "30vh", marginBottom: "5vh" }} className="text-center">
             <h2 className="display-3 mb-4">Check out our Events!</h2>
-            <iframe src="https://calendar.google.com/calendar/embed?src=769cb9a2dfee86c00c27ca226476858675b2fce4ee59ee90af79dbabf78f6b8c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style={{border: 0, height: "100vh"}} width="85%" frameBorder="0" scrolling="no" className="mb-5" title="UCI HKN Events Calendar"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=769cb9a2dfee86c00c27ca226476858675b2fce4ee59ee90af79dbabf78f6b8c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style={{border: 0, height: "100vh"}} width="95%" className="mb-5" title="UCI HKN Events Calendar"></iframe>
         </div>
     </>;
 }
