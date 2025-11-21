@@ -15,10 +15,6 @@ const requirementsLeft = [
   {
     id: 'events',
     text: 'Any 4 HKN hosted Events',
-  },
-  {
-    id: 'luncheon',
-    text: 'Luncheon with a current Officer',
   }
 ];
 
@@ -29,7 +25,6 @@ const requirementsRight = [
       Capstone Project
       <ul className="ms-4 mt-2 mb-0" style={{listStyle: 'disc'}}>
         <li>with a final 3-5 minute presentation</li>
-        <li>include a summary of your coffee chat in your presentation</li>
       </ul>
     </>,
   },
@@ -42,6 +37,10 @@ const requirementsRight = [
       </ul>
     </>,
   },
+  {
+    id: 'luncheon',
+    text: 'Luncheon with a current Officer',
+  }
 ];
 
 function CustomCheckbox({ id, checked, onChange, children }) {
