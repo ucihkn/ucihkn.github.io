@@ -13,7 +13,7 @@ function Nbar() {
     };
 
     window.addEventListener("click", (e) => {
-        if(e.target.tagName != "SPAN" && e.target.id != "navBarIdTogglePiece" && e.target.id != "navBarIdDropdownButton") {
+        if(e.target.tagName != "SPAN" && e.target.id != "navBarIdTogglePiece" && (e.target.id != "navBarIdDropdownButton" || e.target.id != "navBarIdDropdownButton2")) {
             setToggle(false);
         }
     });
@@ -36,9 +36,12 @@ function Nbar() {
                             <NavDropdown.Item href="/officers">Officers</NavDropdown.Item>
                         </NavDropdown>
                         <span className="mx-1" />
-                        <Link to="/initiate" className="nav-link my-auto d-inline-block">Requirements</Link>
+                        <NavDropdown className="nav-link my-auto d-inline-block" title="Events" id="navBarIdDropdownButton2">
+                            <NavDropdown.Item href="/events">Events</NavDropdown.Item>
+                            <NavDropdown.Item href="/past-events">Past Events</NavDropdown.Item>
+                        </NavDropdown>
                         <span className="mx-1" />
-                        <Link to="/events" className="nav-link my-auto d-inline-block">Events</Link>
+                        <Link to="/initiate" className="nav-link my-auto d-inline-block">Requirements</Link>
                         <span className="mx-1" />
                         <Link to="/contact-us" className="nav-link d-inline-block"><Button variant="dark">Contact Us</Button></Link>
                     </Nav>
