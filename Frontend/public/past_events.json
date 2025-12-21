@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "title": "Fall 2024 Induction Ceremony",
+        "date": "December 2024",
+        "description": "Welcome to our newest HKN members!",
+        "image": "AboutPageGroupPhoto.webp"
+    },
+    {
+        "id": "2",
+        "title": "Industry Panel Night",
+        "date": "November 2024",
+        "description": "Alumni from top tech companies shared their experiences.",
+        "image": "AboutPageGroupPhoto.webp"
+    },
+    {
+        "id": "3",
+        "title": "Technical Workshop",
+        "date": "October 2024",
+        "description": "Hands-on workshop on embedded systems.",
+        "image": "AboutPageGroupPhoto.webp"
+    }
+]

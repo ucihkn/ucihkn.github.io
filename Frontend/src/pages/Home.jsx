@@ -13,6 +13,7 @@ import TypingFadeIn from '../components/TypingFadeIn.jsx';
 import FadeInLeftToRight from '../components/FadeInLeftToRight';
 import CompanyLogoCarousel from '../components/CompanyLogoCarousel.jsx';
 import FlyInOnScroll from '../components/FlyInOnScroll';
+import PastEventsSection from '../components/PastEventsSection.jsx';
 
 function Home() {
     return <>
@@ -81,6 +82,12 @@ function Home() {
 
         <hr />
 
+        {/* Past Events Section */}
+        <div style={{ marginTop: "25vh", marginBottom: "25vh" }}>
+            <PastEventsSection maxEvents={3} />
+        </div>
+
+        <hr />
 
         <div style={{ marginTop: "30vh", marginBottom: "5vh" }} className="text-center">
             <h2 className="display-3 mb-4">Check out our Events!</h2>
