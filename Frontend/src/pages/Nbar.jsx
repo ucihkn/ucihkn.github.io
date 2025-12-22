@@ -13,7 +13,10 @@ function Nbar() {
     };
 
     window.addEventListener("click", (e) => {
-        if(e.target.tagName != "SPAN" && e.target.id != "navBarIdTogglePiece" && (e.target.id != "navBarIdDropdownButton" || e.target.id != "navBarIdDropdownButton2")) {
+        // Check if the click is on or within a NavDropdown
+        const isDropdownClick = e.target.closest('.dropdown') !== null;
+        
+        if(e.target.tagName != "SPAN" && e.target.id != "navBarIdTogglePiece" && !isDropdownClick) {
             setToggle(false);
         }
     });
