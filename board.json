@@ -2,7 +2,7 @@
     {
         "name": "Neet Patel",
         "role": "President",
-        "image": "Neet_Patel.jpg",
+        "image": "Neet_Patel_Squared.jpg",
         "bio": "3rd Year\nCSE + Electrical Engineering",
         "email": "mailto:neetp1@uci.edu",
         "linkedin": "https://www.linkedin.com/in/patelneet/"
@@ -10,7 +10,7 @@
     {
         "name": "Rohit De",
         "role": "Vice President",
-        "image": "Rohit_De.jpg",
+        "image": "Rohit_De_Squared.jpg",
         "bio": "3rd Year\nComputer Science & Engineering",
         "email": "mailto:rde1@uci.edu",
         "linkedin": "https://www.linkedin.com/in/rohitde/"
@@ -18,7 +18,7 @@
     {
         "name": "Johnathan Lin",
         "role": "Secretary",
-        "image": "Jonny_Lin.jpg",
+        "image": "Jonny_Lin_Squared.jpg",
         "bio": "3rd Year\nComputer Engineering",
         "email": "mailto:linjonathan22@gmail.com",
         "linkedin": "https://www.linkedin.com/in/linjonathan001/"
@@ -26,7 +26,7 @@
     {
         "name": "Vy Huynh",
         "role": "External Relations",
-        "image": "Vy_Huynh.jpg",
+        "image": "Vy_Huynh_Squared.jpg",
         "bio": "3rd Year\nComputer Engineering",
         "email": "mailto:huynhvy@uci.edu",
         "linkedin": "https://www.linkedin.com/in/vy-huynh"
