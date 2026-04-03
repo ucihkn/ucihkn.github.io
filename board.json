@@ -1,43 +1,35 @@
 [
     {
-        "name": "Gavin Nguyen",
+        "name": "Neet Patel",
         "role": "President",
-        "image": "Gavin_Nguyen.webp",
-        "bio": "4th Year\nElectrical Engineering",
-        "email": "mailto:gavinn2@uci.edu",
-        "linkedin": "https://www.linkedin.com/in/gavin-nguyen8/"
+        "image": "Neet_Patel.jpg",
+        "bio": "3rd Year\nCSE + Electrical Engineering",
+        "email": "mailto:neetp1@uci.edu",
+        "linkedin": "https://www.linkedin.com/in/patelneet/"
+    },
+    {
+        "name": "Rohit De",
+        "role": "Vice President",
+        "image": "Rohit_De.jpg",
+        "bio": "3rd Year\nComputer Science & Engineering",
+        "email": "mailto:rde1@uci.edu",
+        "linkedin": "https://www.linkedin.com/in/rohitde/"
     },
     {
         "name": "Johnathan Lin",
-        "role": "Vice President + Treasurer",
-        "image": "JohnathanLin.webp",
+        "role": "Secretary",
+        "image": "Jonny_Lin.jpg",
         "bio": "3rd Year\nComputer Engineering",
         "email": "mailto:linjonathan22@gmail.com",
         "linkedin": "https://www.linkedin.com/in/linjonathan001/"
     },
     {
-      "name": "Eric Cheng",
-      "role": "Secretary",
-      "image": "Eric_Cheng.jpg",
-      "bio": "4th Year\nElectrical Engineering",
-      "email": "mailto:chenge17@uci.edu",
-      "linkedin": "https://www.linkedin.com/in/ericccheng/"
-    },
-    {
-        "name": "Neet Patel",
-        "role": "Webmaster",
-        "image": "Neet_Patel.jpg",
-        "bio": "3rd Year\nCSE + Electrical Engineering",
-        "email": "mailto:neetp1@uci.edu",
-        "linkedin": "https://www.linkedin.com/in/neat-patel"
-    },
-    {
-        "name": "Rohit De",
+        "name": "Vy Huynh",
         "role": "External Relations",
-        "image": "Rohit_De.webp",
-        "bio": "3rd Year\nComputer Science & Engineering",
-        "email": "mailto:rde1@uci.edu",
-        "linkedin": "https://www.linkedin.com/in/rohitde/"
+        "image": "Vy_Huynh.jpg",
+        "bio": "3rd Year\nComputer Engineering",
+        "email": "mailto:huynhvy@uci.edu",
+        "linkedin": "https://www.linkedin.com/in/vy-huynh"
     }
 ]
   
