@@ -74,7 +74,6 @@ function Footer() {
                             <h4 className="text-dark mb-3">About</h4>
                             <Link to="/faq" className="text-decoration-none text-dark"><p>FAQ</p></Link>
                             <Link to="/about" className="text-decoration-none text-dark"><p>About Us</p></Link>
-                            <Link to="/officers" className="text-decoration-none text-dark"><p>Officers</p></Link>
                         </Col>
                         <Col>
                             <h4 className="text-dark mb-3">Events</h4>
@@ -82,6 +81,11 @@ function Footer() {
                             <Link to="/initiate" className="text-decoration-none text-dark"><p>Requirements</p></Link>
                             <Link to="/contact-us" className="text-decoration-none text-dark"><p>Contact Us</p></Link>
                         </Col>
+                        <Col>
+                            <h4 className="text-dark mb-3">Members</h4>
+                            <Link to="/officers" className="text-decoration-none text-dark"><p>Officers</p></Link>
+                            <Link to="/alumni" className="text-decoration-none text-dark"><p>Alumni</p></Link>
+                        </Col>                        
                     </Row>
                 </Card.Header>
                 <ListGroup.Item className="text-center text-dark" variant="dark">© 2025 IEEE-Eta Kappa Nu, Zeta Omega at University of California, Irvine</ListGroup.Item>

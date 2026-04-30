@@ -9,6 +9,7 @@ import Events from './pages/Events.jsx';
 import Initiate from './pages/Initiate.jsx';
 import FAQ from './pages/FAQ.jsx';
 import PastEvents from './pages/PastEvents.jsx';
+import Alumni from './pages/Alumni.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="initiate" element={<Initiate />} />
             <Route path="events" element={<Events />} />
             <Route path="past-events" element={<PastEvents />} />
+            <Route path="alumni" element={<Alumni />} />
             <Route path="faq" element={<FAQ />} />
           </Route>
         </Routes>
