@@ -1,5 +1,11 @@
 [
     {
+        "title": "Taco Truck Social",
+        "date": "Spring 2026",
+        "description": "A social event where members enjoyed tacos and connected with each other.",
+        "image": "Spring2026Taco-Truck-Event.webp"
+    },
+    {
         "title": "Intro to Embedded Systems Workshop",
         "date": "Spring 2026",
         "description": "Learn the fundamentals of embedded systems design and programming.",
