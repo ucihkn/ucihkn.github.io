@@ -1,117 +1,317 @@
 [
-    {
-        "name": "Eric Cheng",
-        "graduationYear": "2022-2024",
-        "affiliation": "HKN 2023 Vice President"
-    },
-    {
-        "name": "Gavin Nguyen",
-        "graduationYear": "2022-2024",
-        "affiliation": "HKN 2023 President"
-    },
-    {
-        "name": "Oscar Ning",
-        "graduationYear": "2022-2024",
-        "affiliation": "HKN Treasurer"
-    },
-    {
-        "name": "Praneet Iddamsetty",
-        "graduationYear": "2022-2023",
-        "affiliation": "HKN 2022 Vice President"
-    },
-    {
-        "name": "Hee Jean Kwon",
-        "graduationYear": "2022-2023",
-        "affiliation": "HKN 2022 President"
-    },
-    {
-        "name": "Athrv Khoche",
-        "graduationYear": "2021-2022",
-        "affiliation": "HKN Internal Relations"
-    },
-    {
-        "name": "Kelly Lue",
-        "graduationYear": "2021-2022",
-        "affiliation": "HKN Treasurer / Secretary"
-    },
-    {
-        "name": "Kevin Guan",
-        "graduationYear": "2021-2022",
-        "affiliation": "HKN Vice President"
-    },
-    {
-        "name": "Mugared Khalifa",
-        "graduationYear": "2020-2021",
-        "affiliation": "HKN Event Coordinator"
-    },
-    {
-        "name": "Anirudh Rengarajan",
-        "graduationYear": "2020-2021",
-        "affiliation": "HKN Webmaster / Social Media Manager"
-    },
-    {
-        "name": "Andy Tran",
-        "graduationYear": "2020-2021",
-        "affiliation": "HKN 2021 President"
-    },
-    {
-        "name": "Jigar Hira",
-        "graduationYear": "2019-2020",
-        "affiliation": "HKN Secretary & Treasurer"
-    },
-    {
-        "name": "Taleen Sarkissian",
-        "graduationYear": "2019-2020",
-        "affiliation": "HKN 2019 Vice President"
-    },
-    {
-        "name": "Diego Torres",
-        "graduationYear": "2018-2019",
-        "affiliation": "HKN Social Chair"
-    },
-    {
-        "name": "Keiser Ruiz",
-        "graduationYear": "2018-2019",
-        "affiliation": "HKN 2020 President"
-    },
-    {
-        "name": "Steven Huynh",
-        "graduationYear": "2018-2019",
-        "affiliation": "HKN Secretary & Treasurer"
-    },
-    {
-        "name": "Rick Jiang",
-        "graduationYear": "2018-2019",
-        "affiliation": "HKN Academic Chair"
-    },
-    {
-        "name": "Vincent Zhu",
-        "graduationYear": "2017-2019",
-        "affiliation": "HKN VP Internal"
-    },
-    {
-        "name": "Vu Le",
-        "graduationYear": "2017-2019",
-        "affiliation": "HKN 2019 President"
-    },
-    {
-        "name": "Arya Kalantar",
-        "graduationYear": "2017-2019",
-        "affiliation": "HKN VP External"
-    },
-    {
-        "name": "Gregory Kreuper",
-        "graduationYear": "2017-2019",
-        "affiliation": "HKN 2018 President"
-    },
-    {
-        "name": "Austin Soedarsono",
-        "graduationYear": "2017-2018",
-        "affiliation": "HKN 2017 President"
-    },
-    {
-        "name": "Hugh Dang",
-        "graduationYear": "2016-2017",
-        "affiliation": "HKN 2016 President"
-    }
+  {
+    "name": "Gavin Nguyen",
+    "graduationYear": "2024-2025",
+    "affiliation": "HKN 2025 President"
+  },
+  {
+    "name": "Eric Cheng",
+    "graduationYear": "2024-2025",
+    "affiliation": "HKN 2023 Vice President"
+  },
+  {
+    "name": "Oscar Ning",
+    "graduationYear": "2024-2025",
+    "affiliation": "HKN Treasurer"
+  },
+  {
+    "name": "Hee Jean Kwon",
+    "graduationYear": "2023-2024",
+    "affiliation": "HKN 2024 President"
+  },
+  {
+    "name": "Aaron Yen",
+    "graduationYear": "2023",
+    "affiliation": "HKN 2023 President"
+  },
+  {
+    "name": "Praneet Iddamsetty",
+    "graduationYear": "2023-2024",
+    "affiliation": "HKN 2022 Vice President"
+  },
+  {
+    "name": "Anthony Do",
+    "graduationYear": "2023",
+    "affiliation": "HKN Treasurer"
+  },
+  {
+    "name": "Athrv Khoche",
+    "graduationYear": "2021-2022",
+    "affiliation": "HKN Internal Relations"
+  },
+  {
+    "name": "Kelly Lue",
+    "graduationYear": "2021-2022",
+    "affiliation": "HKN Treasurer / Secretary"
+  },
+  {
+    "name": "Kevin Guan",
+    "graduationYear": "2021-2022",
+    "affiliation": "HKN Vice President"
+  },
+  {
+    "name": "Andy Tran",
+    "graduationYear": "2020-2021",
+    "affiliation": "HKN 2021 President"
+  },
+  {
+    "name": "Mugared Khalifa",
+    "graduationYear": "2020-2021",
+    "affiliation": "HKN Event Coordinator"
+  },
+  {
+    "name": "Anirudh Rengarajan",
+    "graduationYear": "2020-2021",
+    "affiliation": "HKN Webmaster / Social Media Manager"
+  },
+  {
+    "name": "Keiser Ruiz",
+    "graduationYear": "2018-2019",
+    "affiliation": "HKN 2020 President"
+  },
+  {
+    "name": "Diego Torres",
+    "graduationYear": "2018-2019",
+    "affiliation": "HKN Social Chair"
+  },
+  {
+    "name": "Gregory Krueper",
+    "graduationYear": "2017-2018",
+    "affiliation": "HKN 2018 President"
+  },
+  {
+    "name": "Vincent Zhu",
+    "graduationYear": "2017-2018",
+    "affiliation": "HKN Vice President"
+  },
+  {
+    "name": "Steven Huynh",
+    "graduationYear": "2018",
+    "affiliation": "HKN Secretary/Treasurer"
+  },
+  {
+    "name": "Vu Le",
+    "graduationYear": "2017",
+    "affiliation": "HKN Treasurer"
+  },
+  {
+    "name": "Austin Soedarsono",
+    "graduationYear": "2017",
+    "affiliation": "HKN 2017 President"
+  },
+  {
+    "name": "Arya Kalantar",
+    "graduationYear": "2017",
+    "affiliation": "HKN Vice President External"
+  },
+  {
+    "name": "Hugh Dang",
+    "graduationYear": "2017",
+    "affiliation": "HKN 2017 President"
+  },
+  {
+    "name": "Charles Lam",
+    "graduationYear": "2015-2017",
+    "affiliation": "HKN 2017 President"
+  },
+  {
+    "name": "Edmund Coo",
+    "graduationYear": "2016",
+    "affiliation": "HKN Vice President External"
+  },
+  {
+    "name": "Jason Bonsol",
+    "graduationYear": "2015-2016",
+    "affiliation": "HKN Corresponding Secretary"
+  },
+  {
+    "name": "Carey Gunter",
+    "graduationYear": "2016",
+    "affiliation": "HKN Treasurer"
+  },
+  {
+    "name": "Daren Yu",
+    "graduationYear": "2016",
+    "affiliation": "HKN Social Chair"
+  },
+  {
+    "name": "Charlie Pisoraj",
+    "graduationYear": "2014-2015",
+    "affiliation": "HKN 2015 President"
+  },
+  {
+    "name": "Harsh Kavia",
+    "graduationYear": "2013-2014",
+    "affiliation": "HKN 2014 President"
+  },
+  {
+    "name": "Adam Cotner",
+    "graduationYear": "2014",
+    "affiliation": "HKN Vice President External"
+  },
+  {
+    "name": "Allen Chan",
+    "graduationYear": "2014",
+    "affiliation": "HKN Corresponding Secretary"
+  },
+  {
+    "name": "Omar Bravo",
+    "graduationYear": "2014",
+    "affiliation": "HKN Webmaster"
+  },
+  {
+    "name": "David Hong",
+    "graduationYear": "2014",
+    "affiliation": "HKN Webmaster"
+  },
+  {
+    "name": "Raj Vora",
+    "graduationYear": "2014",
+    "affiliation": "HKN Webmaster"
+  },
+  {
+    "name": "Faraz Milani",
+    "graduationYear": "2012-2013",
+    "affiliation": "HKN Vice President External"
+  },
+  {
+    "name": "Kevin Duong",
+    "graduationYear": "2013",
+    "affiliation": "HKN Treasurer"
+  },
+  {
+    "name": "Duy Tran",
+    "graduationYear": "2013-2014",
+    "affiliation": "HKN Publicity Chair"
+  },
+  {
+    "name": "Camilo Aguilar",
+    "graduationYear": "2013",
+    "affiliation": "HKN Vice President"
+  },
+  {
+    "name": "Aaron Adamski",
+    "graduationYear": "2013",
+    "affiliation": "HKN Social Chair"
+  },
+  {
+    "name": "Kelvin Liang",
+    "graduationYear": "2012-2013",
+    "affiliation": "HKN 2013 President"
+  },
+  {
+    "name": "Hanchel Cheng",
+    "graduationYear": "2012-2013",
+    "affiliation": "HKN Vice President Internal"
+  },
+  {
+    "name": "Steven Bui",
+    "graduationYear": "2012-2013",
+    "affiliation": "HKN Treasurer"
+  },
+  {
+    "name": "Cliff Huang",
+    "graduationYear": "2012",
+    "affiliation": "HKN Social Chair"
+  },
+  {
+    "name": "Vinh Trinh",
+    "graduationYear": "2012-2013",
+    "affiliation": "HKN Publicity Chair"
+  },
+  {
+    "name": "Chantal Fry",
+    "graduationYear": "2012-2013",
+    "affiliation": "HKN Recording Secretary"
+  },
+  {
+    "name": "Sandra Hom",
+    "graduationYear": "2012-2013",
+    "affiliation": "HKN Webmaster"
+  },
+  {
+    "name": "Ahmed Dessouki",
+    "graduationYear": "2011",
+    "affiliation": "HKN 2011 President"
+  },
+  {
+    "name": "Brian Vu",
+    "graduationYear": "2011",
+    "affiliation": "HKN Vice President Internal"
+  },
+  {
+    "name": "Wilson Liang",
+    "graduationYear": "2011",
+    "affiliation": "HKN Vice President External"
+  },
+  {
+    "name": "Chang Shu",
+    "graduationYear": "2010",
+    "affiliation": "HKN 2010 President"
+  },
+  {
+    "name": "Thang Chung",
+    "graduationYear": "2010",
+    "affiliation": "HKN Vice President"
+  },
+  {
+    "name": "Peter Sabath",
+    "graduationYear": "2009",
+    "affiliation": "HKN 2009 President"
+  },
+  {
+    "name": "Harnyen Li",
+    "graduationYear": "2009",
+    "affiliation": "HKN Vice President Internal"
+  },
+  {
+    "name": "Siavash Ahrar",
+    "graduationYear": "2009",
+    "affiliation": "HKN Vice President External"
+  },
+  {
+    "name": "Howard Wong",
+    "graduationYear": "2007-2008",
+    "affiliation": "HKN 2008 President"
+  },
+  {
+    "name": "Sean Tucker",
+    "graduationYear": "2008",
+    "affiliation": "HKN Vice President Internal"
+  },
+  {
+    "name": "Henry Sung",
+    "graduationYear": "2007",
+    "affiliation": "HKN 2007 President"
+  },
+  {
+    "name": "Sean O'Rourke",
+    "graduationYear": "2007",
+    "affiliation": "HKN Vice President"
+  },
+  {
+    "name": "Daniel Lee",
+    "graduationYear": "2002-2004",
+    "affiliation": "HKN 2004 President"
+  },
+  {
+    "name": "Warren Chen",
+    "graduationYear": "2003-2004",
+    "affiliation": "HKN Activities"
+  },
+  {
+    "name": "Daniel Chew",
+    "graduationYear": "2002-2003",
+    "affiliation": "HKN 2003 President"
+  },
+  {
+    "name": "Karen Sam",
+    "graduationYear": "2002",
+    "affiliation": "HKN 2002 President"
+  },
+  {
+    "name": "Jenna Seo",
+    "graduationYear": "2002",
+    "affiliation": "HKN Vice President"
+  }
 ]
