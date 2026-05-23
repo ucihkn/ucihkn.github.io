@@ -1,5 +1,18 @@
 [
-     {
+     
+    {
+        "title": "Intro to Software Defined Radios Workshop",
+        "date": "Spring 2026",
+        "description": "A technical workshop where members learned the basics of software-defined radios and their applications.",
+        "image": "Spring2026-SDR workshop.jpeg"
+    },
+    {
+        "title": "Picnic Social",
+        "date": "Spring 2026",
+        "description": "A casual picnic social where members enjoyed snacks and connected with officers and fellow initiates.",
+        "image": "Spring2026-picnic.jpeg"
+    },
+    {
         "title": "UCI x UCLA Seaside Social",
         "date": "Spring 2026",
         "description": "A cross-social event where UCLA HKN and UCI HKN members gathered at Seaside to connect and enjoy the quarter together.",
