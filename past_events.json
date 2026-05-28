@@ -1,6 +1,12 @@
 [
      
     {
+        "title": "Resume Workshop",
+        "date": "Spring 2026",
+        "description": "A career-preparation workshop where members received resume guidance and support for job applications.",
+        "image": "Spring2026-resume-workshop.jpeg"
+    },
+    {
         "title": "Intro to Software Defined Radios Workshop",
         "date": "Spring 2026",
         "description": "A technical workshop where members learned the basics of software-defined radios and their applications.",
