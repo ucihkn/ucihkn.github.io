@@ -26,8 +26,8 @@ function Nbar() {
             <Container fluid>
                 <Navbar.Brand>
                     <Link to="/" className="nav-link d-flex align-items-center">
-                        <img src={logo} height="50" className="d-inline-block me-2" alt="UCI HKN Logo" />
-                        UCI HKN
+                        <img src={logo} height="50" className="d-inline-block me-2" alt="HKN at UCI Logo" />
+                        HKN at UCI
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle id="navBarIdTogglePiece" aria-controls="mainNavPanel" />

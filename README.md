@@ -25,7 +25,8 @@ Important thing to do:
 
 NOW you should be done!
 
-The changes to the site will be visible to you at [ucihkn.github.io](https://ucihkn.github.io)
+The changes to the site will be visible to you at [ucihkn.github.io](https://ucihkn.github.io) or
+[hkn.eng.uci.edu](https://hkn.eng.uci.edu)
 
 If you have any troubles please refer to [this page](https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3)
 
@@ -52,4 +53,7 @@ The tech stack:
 - Vite (package manager)
 - Bootstrap
 
-This README.md was updated last in December 2025 by Neet
+**NOTE FROM NEET**: Ever since our domain was at [hkn.eng.uci.edu](https://hkn.eng.uci.edu), I suspect
+that if you want to make config level changes, you need to treat the domain as [ucihkn.github.io](https://ucihkn.github.io), but then changes display at the uci.edu domain.
+
+This README.md was updated last in June 2026 by Neet

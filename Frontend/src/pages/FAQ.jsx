@@ -31,7 +31,7 @@ function FAQ() {
         <ContentBlock mt="25" mb="25" content={
             <>
                 <h1 className="display-1 mb-4">Frequently Asked Questions</h1>
-                <p className="lead mb-4">Find answers to common questions about UCI HKN membership and initiation.</p>
+                <p className="lead mb-4">Find answers to common questions about HKN at UCI membership and initiation.</p>
                 
                 {qaData.length === 0 ? (
                     <p className="text-center text-muted">No FAQ items available at this time.</p>
