@@ -6,7 +6,7 @@ function Alumni() {
     return (<>
         <ContentBlock mt="25" mb="25" content={<>
             <h1 className="display-1 mb-1">Alumni</h1>
-            <p className="lead mb-5">Previous Members and Officers of Eta Kappa Nu!</p>
+            <p className="lead mb-5">Previous Members and Officers of Eta Kappa Nu at UCI!</p>
             <AlumniSection maxAlumni={100} />
         </>} />
     </>);
