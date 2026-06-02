@@ -56,4 +56,4 @@ The tech stack:
 **NOTE FROM NEET**: Ever since our domain was at [hkn.eng.uci.edu](https://hkn.eng.uci.edu), I suspect
 that if you want to make config level changes, you need to treat the domain as [ucihkn.github.io](https://ucihkn.github.io), but then changes display at the uci.edu domain.
 
-This README.md was updated last in June 2026 by Neet
+This README.md was updated last in June 2026 by Neet 
