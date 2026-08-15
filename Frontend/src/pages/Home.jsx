@@ -20,7 +20,7 @@ function Home() {
         <Card style={{ marginTop: "10vh" }} className={`bg-dark text-white ${styles['parallax-card']}`}>
             <Card.ImgOverlay style={{ backgroundColor: "rgba(0,0,0,0.25)"}} className={`${styles['home-overlay']} text-center`}>
                 <div>
-                    <Card.Title className="display-1 mt-3"><b>IEEE-Eta Kappa Nu</b></Card.Title>
+                    <Card.Title className="display-1 mt-3"><b>Eta Kappa Nu</b></Card.Title>
                     <Card.Text className="display-6"><b>Zeta Omega Chapter</b></Card.Text>
                 </div>
                 <div className={"mb-5 " + styles['bottom-content']}>

@@ -88,7 +88,7 @@ function Footer() {
                         </Col>                        
                     </Row>
                 </Card.Header>
-                <ListGroup.Item className="text-center text-dark" variant="dark">© 2025 IEEE-Eta Kappa Nu, Zeta Omega at University of California, Irvine</ListGroup.Item>
+                <ListGroup.Item className="text-center text-dark" variant="dark">© 2025 Eta Kappa Nu, Zeta Omega at University of California, Irvine</ListGroup.Item>
             </ListGroup>
         </Card>
     </>);
